@@ -1,0 +1,20 @@
+{
+    "name": "@hls/simple-logger",
+    "version": "1.0.0",
+    "description": "simple logger",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HectorLobatoSilva/simple-logger.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HectorLobatoSilva/simple-logger/issues"
+    },
+    "homepage": "https://github.com/HectorLobatoSilva/simple-logger#readme"
+}
