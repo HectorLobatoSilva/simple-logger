@@ -9,7 +9,7 @@ class Logger {
     };
 
     constructor(level) {
-        this.level = level || "DEFAULT";
+        this.level = level || "OFF";
     }
 
     printer(type = "", text) {
