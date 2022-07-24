@@ -15,7 +15,7 @@ class Logger {
     printer(type = "", text) {
         const color = this.levels[type] || this.levels["DEFAULT"];
         console.log(
-            `\x1b[${color}m`,
+            `\x1b[${color}m\x1b[1m`,
             `[ ${type + " ".repeat(5 - type.length)} ]`,
             "\x1b[0m",
             ...text
@@ -48,3 +48,10 @@ class Logger {
 }
 
 module.exports = Logger;
+
+const logger = new Logger("TRACE");
+logger.trace("Some", "undefined", "number", "of", "parameters");
+logger.debug("Some", "undefined", "number", "of", "parameters");
+logger.info("Some", "undefined", "number", "of", "parameters");
+logger.warn("Some", "undefined", "number", "of", "parameters");
+logger.error("Some", "undefined", "number", "of", "parameters");
