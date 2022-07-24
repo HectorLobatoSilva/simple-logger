@@ -23,13 +23,13 @@ the library responds to the next showing level table
 
 The logger functions uses rest parameters so you can set any number of parameters
 
-## usage
+## Usage
 
 ```js
 /// Common JS
-const Logger = require("@hls/simple-logger");
+const Logger = require("@hectorlobatosilva/simple-logger");
 /// Module JS
-import Logger from "@hls/simple-logger";
+import Logger from "@hectorlobatosilva/simple-logger";
 const logger = new Logger("INFO"); // Logs levels [ "TRACE","DEBUG","INFO","WARN","ERROR" ] OFF by default
 logger.trace("Some", "undefined", "number", "of", "parameters");
 logger.debug("Some", "undefined", "number", "of", "parameters");
