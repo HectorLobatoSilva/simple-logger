@@ -48,10 +48,3 @@ class Logger {
 }
 
 module.exports = Logger;
-
-const logger = new Logger("TRACE");
-logger.trace("Some", "undefined", "number", "of", "parameters");
-logger.debug("Some", "undefined", "number", "of", "parameters");
-logger.info("Some", "undefined", "number", "of", "parameters");
-logger.warn("Some", "undefined", "number", "of", "parameters");
-logger.error("Some", "undefined", "number", "of", "parameters");
